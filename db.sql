@@ -13,17 +13,17 @@ CREATE TABLE USER (
 	PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-INSERT INTO `user` (`name`,age,isAdmin) VALUES ('Delta','55',TRUE);
-INSERT INTO `user` (`name`,age,isAdmin) VALUES ('Vivi','22',TRUE);
-INSERT INTO `user` (`name`,age,isAdmin) VALUES ('Poll','11',FALSE);
-INSERT INTO `user` (`name`,age,isAdmin) VALUES ('Barbara','29',FALSE);
-INSERT INTO `user` (`name`,age,isAdmin) VALUES ('Jackson','39',FALSE);
-INSERT INTO `user` (`name`,age,isAdmin) VALUES ('Alen','31',FALSE);
-INSERT INTO `user` (`name`,age,isAdmin) VALUES ('Michael','67',TRUE);
-INSERT INTO `user` (`name`,age,isAdmin) VALUES ('Jackson','24',FALSE);
-INSERT INTO `user` (`name`,age,isAdmin) VALUES ('Brandon','16',FALSE);
-INSERT INTO `user` (`name`,age,isAdmin) VALUES ('Risha','22',FALSE);
-INSERT INTO `user` (`name`,age,isAdmin) VALUES ('Delta','39',FALSE);
-INSERT INTO `user` (`name`,age,isAdmin) VALUES ('Daria','31',FALSE);
-INSERT INTO `user` (`name`,age,isAdmin) VALUES ('Vova','23',FALSE);
-INSERT INTO `user` (`name`,age,isAdmin) VALUES ('Jasson','23',FALSE);
+INSERT INTO `user` (`name`,age,is_admin) VALUES ('Delta','55',TRUE);
+INSERT INTO `user` (`name`,age,is_admin) VALUES ('Vivi','22',TRUE);
+INSERT INTO `user` (`name`,age,is_admin) VALUES ('Poll','11',FALSE);
+INSERT INTO `user` (`name`,age,is_admin) VALUES ('Barbara','29',FALSE);
+INSERT INTO `user` (`name`,age,is_admin) VALUES ('Jackson','39',FALSE);
+INSERT INTO `user` (`name`,age,is_admin) VALUES ('Alen','31',FALSE);
+INSERT INTO `user` (`name`,age,is_admin) VALUES ('Michael','67',TRUE);
+INSERT INTO `user` (`name`,age,is_admin) VALUES ('Jackson','24',FALSE);
+INSERT INTO `user` (`name`,age,is_admin) VALUES ('Brandon','16',FALSE);
+INSERT INTO `user` (`name`,age,is_admin) VALUES ('Risha','22',FALSE);
+INSERT INTO `user` (`name`,age,is_admin) VALUES ('Delta','39',FALSE);
+INSERT INTO `user` (`name`,age,is_admin) VALUES ('Daria','31',FALSE);
+INSERT INTO `user` (`name`,age,is_admin) VALUES ('Vova','23',FALSE);
+INSERT INTO `user` (`name`,age,is_admin) VALUES ('Jasson','23',FALSE);
